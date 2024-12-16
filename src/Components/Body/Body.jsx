@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import MassageList from './MassageList'
+import MassageList from './Massagelist'
 import {useNavigate} from 'react-router-dom'
 import authService from '../../appwrite/auth'
 import config from '../../appwrite/Config'
