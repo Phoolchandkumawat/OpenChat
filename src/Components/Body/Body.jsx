@@ -56,7 +56,7 @@ function Body() {
           <div className="text-white w-full h-full p-2">
             <h3 className='p-2'>Open Chat</h3>
             <div className="flex h-max w-full gap-3 ml-2">
-              <Update UserOnline={allonline.documents}/>
+              <Update UserOnline={allonline?.documents}/>
               
             </div>
             <div className={`${user ? "flex": "hidden"} flex-col`}>
